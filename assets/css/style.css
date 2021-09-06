@@ -1,21 +1,22 @@
-ion-icon {
-    color:whitesmoke;
-    --ionicon-stroke-width: 80px;
-  }
-
-.green{
-  background-color: green;
-}
-.yellow{
-  background-color: yellow;
-}
-.orange{
-  background-color: orange;
-}
-.red{
-  background-color: red;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.purple{
-  background-color: purple;
+header {
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    background-color: #47474d;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+
+
+h2,
+h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;  
 }
