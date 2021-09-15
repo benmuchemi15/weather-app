@@ -1,22 +1,15 @@
-* {
+body {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
 }
 
-header {
-    display: flex;
-    justify-content: center;
-    color: whitesmoke;
-    background-color: #47474d;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    margin-bottom: 25px;
+main {
+    display: block;
 }
-
-
-h2,
-h4{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: 600;  
+h1{
+    text-align: center;
+    background-color: aqua, fixed;
+    
+}
+button{
+    width: auto;
 }
